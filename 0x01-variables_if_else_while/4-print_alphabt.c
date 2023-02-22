@@ -6,15 +6,15 @@
 */
 int main(void)
 {
-	char eww, e, q;
+	char lol, e, q;
 
 	e = 'e';
 	q = 'q';
 
-	for (eww = 'a'; eww <= 'z'; eww++)
-	{.
-	if (eww != e && eww != q
-	putchar(eww);
+	for (lol = 'a'; lol <= 'z'; lol++)
+	{
+	if (lol != e && lol != q)
+	putchar(lol);
 	}
 	putchar('\n');
 	return (0);
