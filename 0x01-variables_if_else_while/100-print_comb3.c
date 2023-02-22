@@ -10,7 +10,7 @@ int main(void)
 
 	for (c = '0'; c < '9'; c++)
 	{
-	for (y = 0 + 1; y <= '9'; y++)
+	for (y = c + 1; y <= '9'; y++)
 	{
 	if (c != y)
 	{
