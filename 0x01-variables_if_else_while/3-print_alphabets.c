@@ -2,7 +2,7 @@
 /**
  * main -prints the alphabet in lowercase, and then in uppercase
  * using putchar thrice only
- * Return: 0
+ * Return: Always 0 (Success)
 */
 int main(void)
 {
@@ -13,7 +13,6 @@ int main(void)
 
 	for (cy = 'A'; cy <= 'Z'; cy++)
 	putchar(cy);
-
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
