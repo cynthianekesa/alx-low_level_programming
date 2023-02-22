@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main -prints the alphabet in lowercase by using putchar only
- * printf and puts are forbidden
+ * main -prints the alphabet in lowercase using putchar
+ *
  * Return: 0
 */
 int main(void)
@@ -9,8 +9,7 @@ int main(void)
 	char c;
 
 	for (c = 'a'; c <= 'z'; c++)
-	{
-		putchar(c);
-	}
+	putchar(c);
+	putchar("\n");
 	return (0);
 }
