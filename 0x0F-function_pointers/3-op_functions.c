@@ -4,7 +4,7 @@
 
 /**
   * op_add - returns the sum of a and b
-  * @a: integer a 
+  * @a: integer a
   * @b: integer b
   *
   * Return:0
